@@ -11,5 +11,3 @@ yarn test / node run test
 ## Libs using in the project
 jest
 node
-
-
