@@ -37,4 +37,10 @@ describe("Query string to object", () => {
       profession: "developer",
     });
   });
+  it("should convert a query string of a single key-value pair to object", () => {
+    const qs = "name=Guilherme";
+    expect(parse(qs)).toEqual({
+      name: "Guilherme",
+    });
+  });
 });
